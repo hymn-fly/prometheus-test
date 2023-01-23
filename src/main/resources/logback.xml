@@ -1,0 +1,13 @@
+<configuration>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/test.log</file>
+        <append>true</append>
+        <encoder>
+<!--            <pattern>%msg%n</pattern>   -->
+            <pattern>[%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level="DEBUG"> <!-- 전체 log level을 설정하는 부분-->
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>

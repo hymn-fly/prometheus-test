@@ -1,0 +1,9 @@
+[main] DEBUG org.example.Main - test 5
+[main] DEBUG org.example.Main - test 10
+[main] DEBUG org.example.Main - test 15
+[main] DEBUG org.example.Main - test 5
+[main] DEBUG org.example.Main - test 5
+[main] DEBUG org.example.Main - test 10
+[main] DEBUG org.example.Main - test 15
+[main] DEBUG org.example.Main - test 20
+[main] DEBUG org.example.Main - test 25
